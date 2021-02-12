@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
+<!DOCTYPE html>
+<html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Responsive Columns</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <title>Latitude</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" style="background-color: rgb(30, 204, 189) "index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="pie.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -39,13 +44,34 @@
         </div>
     </nav>
 
-    <div class = "container">
-        <div class = "row">
-            <div class = "col-md-3">
-                <div class = "box skyblue">col-md-3</div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <div class="main content">
+                    <h1>Summary: Latitute vs. X</h1>
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. <br> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <img src= "Assets/Fig1.png">
+                </div>     
+            </div>
+       
+            <div class="col-lg-4 col-md-12">
+                <div class ="sidebar"></div>
+                    <h1>Visualizations</h1>
+                    <div class="col-lg-2 col-md-3">
+                        <img id=F1 src="Assets/Fig1.png" height=175px> 
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <img id=F2 src="Assets/Fig2.png" height=175px>
+                    </div>  
+                    <div class="col-lg-2 col-md-3">
+                        <img id=F3 src="Assets/Fig3.png" height=175px>
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <img id=F4 src="Assets/Fig4.png" height=175px>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
 </body>
-</html>

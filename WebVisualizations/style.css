@@ -1,0 +1,16 @@
+
+.navbar {
+    background: white;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.box {
+    background-color: white;
+}
+
+.body {
+    background-color: gray;
+}
