@@ -7,18 +7,27 @@
     display: inline-block;
 }
 
-.box {
-    background-color: white;
-}
-
 .body {
     background-color: gray;
 }
 
-.main content {
-    background-color: green;
+.main {
+    margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 10px 30px 5px;
+	color: black;
+	background-color: white;
 }
 
 .sidebar {
-    background-color: green;
+    margin-top: 30px;
+	padding: 10px 30px 10px;
+	color: black;
+	background-color: white;
+}
+
+#landing_image {
+    float: left;
+    height: 200px;
+    width: 230px;
 }

@@ -41,38 +41,50 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-md-8 col-sm-12">
+            <div class="col-lg-7 col-md-12">
                 <div class="main content">
-                    <h1>Summary: Latitute vs. X</h1>
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. <br> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-                    <img src= "Assets/Fig1.png">
+                    <br>
+                    <h1 class="plot-header">Summary: Latitude vs. X</h1>
+                    <br>
+                    <hr>
+                    <br>
+                    <img id="landing_image" src= "Assets/Fig1.png">
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
                 </div>     
             </div>
-       
-            <div class="col-lg-4 col-md-12">
+<!-- this section creates the visualtion plots to the right-->
+            <div class="col-lg-5 col-md-12">
                 <div class ="sidebar"></div>
-                    <h1>Visualizations</h1>
-                    <div class="col-lg-2 col-md-3">
-                        <a href="Assets/Fig1.png">
-                        <img target="_blank" id=F1 src="Assets/Fig1.png" height=175px>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3">
-                        <a href="Assets/Fig2.png">
-                        <img target="_blank" id=F2 src="Assets/Fig2.png" height=175px>
-                        </a>
-                    </div>  
-                    <div class="col-lg-2 col-md-3">
-                        <a href="Assets/Fig3.png">
-                        <img target="_blank" id=F3 src="Assets/Fig3.png" height=175px>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3">
-                        <a href="Assets/Fig4.png">
-                        <img target="_blank" id=F4 src="Assets/Fig4.png" height=175px>
-                        </a>
+                    <br>
+                    <h2 class="plot-header">Visualizations</h2>
+                    <hr>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-3">
+                                <a href="Assets/Fig1.png">
+                                <img target="_blank" id=F1 src="Assets/Fig1.png" height="200px" width="225px">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-3">
+                                <a href="Assets/Fig2.png">
+                                <img target="_blank" id=F2 src="Assets/Fig2.png" height="200px" width="225px">
+                                </a>
+                            </div>  
+                            <div class="col-lg-6 col-md-3">
+                                <a href="Assets/Fig3.png">
+                                <img target="_blank" id=F3 src="Assets/Fig3.png" height="200px" width="225px">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-3">
+                                <a href="Assets/Fig4.png">
+                                <img target="_blank" id=F4 src="Assets/Fig4.png" height="200px" width="225px">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
