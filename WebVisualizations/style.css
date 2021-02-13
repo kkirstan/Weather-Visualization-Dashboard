@@ -3,8 +3,8 @@
     background: white;
 }
 
-.navbar li {
-    display: inline-block;
+#latitude {
+    font-family: Georgia, serif;
 }
 
 .body {
