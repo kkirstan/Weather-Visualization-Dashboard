@@ -4,8 +4,8 @@
     font-family: Georgia, serif;
 }
 
-.body {
-    background-color: gray;
+body {
+    background-color: rgb(235, 235, 235);
 }
 
 #landing_image {
@@ -14,12 +14,40 @@
     width: 230px;
 }
 
+.main {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: white;
+    margin-top: 60px;
+    padding: 30px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: #058fa1;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #058fa1;
+}
+
+.sidebar {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: white;
+    margin-top: 60px;
+    padding: 30px;
+}
+
 @media (max-width: 990px) {
     .navbar-expand-lg{
         background-color: #058fa1 !important;
     }
     
-    #latitude{
+    #latitude {
         background-color: white !important;
         color: black !important;
     }
