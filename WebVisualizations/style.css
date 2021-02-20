@@ -55,6 +55,26 @@ h2 {
     background-color: white;
 }
 
+#temp_img {
+    border-style: solid;
+    border-color: #058fa1;
+}
+
+#hum_img {
+    border-style: solid;
+    border-color: #058fa1;
+}
+
+#cloud_img {
+    border-style: solid;
+    border-color: #058fa1;
+}
+
+#wind_img {
+    border-style: solid;
+    border-color: #058fa1;
+}
+
 @media (max-width: 990px) {
     .navbar-expand-lg{
         background-color: #058fa1 !important;
