@@ -1,10 +1,19 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard
 
-# Latitude - Latitude Analysis Dashboard with Attitude
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting weather data.
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+# Weather Analysis Dashboard (Latitude vs. Max Temperature, Humidity, Cloudiness, and Wind Speed)
+For this project I created an interactive web visualization dashboard plotting weather data, particularly the relationships between latitude and temperature, humidity, cloudiness, and windspeed. I created individual pages for each plot with a corresponding explanation for each visualization, including a navigation menu as a means by which to maneuver between them. I also included a landing page, where users can see a comparison of all the plots, and another page where users can view the data used to build them.
 
 The final product can be found at [https://kkirstan.github.io/Weather-Visualization-Dashboard/WebVisualizations/index.html](https://kkirstan.github.io/Weather-Visualization-Dashboard/WebVisualizations/index.html).
+
+# Technology Used
+- HTML 5
+- CSS
+- Javascript
+- Bootstrap
+- Python
+- Pandas
+- Jupyter Notebook
+
 
 # Website Requirements
 The website must consist of 7 pages total, including:
@@ -34,9 +43,7 @@ The website must consist of 7 pages total, including:
 
       Displays a responsive table containing the data used in the visualizations.
 
-      The table must be a bootstrap table component. Hint
-
-      The data must come from exporting the .csv file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called       to_html that allows you to generate a HTML table from a pandas dataframe. See the documentation here
+      The table must be a bootstrap table component.
 
 
 
